@@ -1,0 +1,12 @@
+certifi==2020.6.20
+Cython==0.29.20
+future==0.18.2
+nibabel==3.1.1
+numpy==1.19.0
+opencv-python==4.2.0.34
+packaging==20.4
+pydensecrf @ git+https://github.com/lucasb-eyer/pydensecrf.git@4d5343c398d75d7ebae34f51a47769084ba3a613
+pyparsing==2.4.7
+scipy==1.5.0
+six==1.15.0
+torch==1.5.1
