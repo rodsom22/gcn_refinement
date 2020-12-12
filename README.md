@@ -54,13 +54,23 @@ It also outputs the following Nifti files for visualization:
 * `crf_prediction.nii.gz` - CRF Refinement. 
 
 ## Citation
-If this work is useful for your research, please cite our [paper](https://openreview.net/pdf?id=UUie86nf5B):
+If any part of our work is useful for your research, please cite our corresponding publications 
+([MIDL20](https://openreview.net/pdf?id=UUie86nf5B), 
+[MELBA]( https://www.melba-journal.org/article/18135-an-uncertainty-driven-gcn-refinement-strategy-for-organ-segmentation)):
 ```
 @conference{soberanismukul2020refinement,
 	    Author = {Roger D. Soberanis-Mukul and Nassir Navab and Shadi Albarqouni},
-	    Booktitle = {MIDL},
+	    Booktitle = {Medical Imaging with Deep Learning (MIDL)},
 	    Title = {Uncertainty-based Graph Convolutional Networks for Organ Segmentation Refinement},
             Year = {2020}
+}
+
+@article{soberanismukulmelba20,
+	author = {Roger D. Soberanis-Mukul and Nassir Navab and Shadi Albarqouni},	
+	journal = {Machine Learning for Biomedical Imaging (MELBA)},
+	note = {MIDL 2020 Special Issue},
+	title = {An Uncertainty-Driven GCN Refinement Strategy for Organ Segmentation},
+	year = {2020}}
 }
 ```
 
